@@ -110,8 +110,7 @@ void draw() {
   bgcolors[38] = #F0A890;
 
 //changes background colors
-background(bgcolors[counter]);
-counter = (counter + 1) % 38;
+background(#000000);
  
 // switches between visualizations
   switch (screen) {
@@ -202,7 +201,7 @@ void wavelength() {
     reverseCounter = 38;}
  
  // wavelength dynamics
-  strokeWeight(10);
+  strokeWeight(35);
   noFill();
   waveform.analyze();
   beginShape();
